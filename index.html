@@ -76,16 +76,17 @@
 
         }
 
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
 
-        }
+.cards .card {
+  flex: 0 0 280px; /* ширина кожної картки */
+}
 
-        .cards .card animate-on-scroll {
-            width: calc(25% - 20px);
-        }
         .animate-on-scroll {
     opacity: 0;
     transform: translateY(30px);
